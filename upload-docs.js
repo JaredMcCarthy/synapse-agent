@@ -19,7 +19,7 @@ async function main(){
     // subimos los archivos a la memoria de langbase
     const faqResult = await langbase.memories.documents.upload({
         memoryName,
-        contentType: 'text/html',
+        contentType: 'text/plain',
         documentName: 'langbase.faq.txt',
         document: langbaseFaq,
         meta: {category: 'Support', topic: 'Langbase FAQs'},
