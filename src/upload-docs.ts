@@ -1,8 +1,8 @@
 
 import 'dotenv/config';
-import {Langbase} from 'langbase'
-import {readFile} from 'fs/promises'
-import path from 'path'
+import {Langbase} from 'langbase';
+import {readFile} from 'fs/promises';
+import path from 'path';
 
 
 const langbase = new Langbase({
@@ -33,3 +33,6 @@ main()
 
 // DOC que use poara guiarme
 // https://langbase.com/docs/sdk/memory/document-upload?sdk=typescript
+
+// DOC para aprender de arquitectura de lLM
+// https://langbase.com/docs/examples/agent-architectures?sdk=typescript
