@@ -6,7 +6,7 @@ import path from 'path';
 
 
 const langbase = new Langbase({
-    apiKey: process.env.LANGBASE_API_KEY
+    apiKey: process.env.LANGBASE_API_KEY!
 })
 
 async function main(){
@@ -25,7 +25,14 @@ async function main(){
         meta: {category: 'Support', topic: 'Langbase FAQs'},
     });
 
-    console.log(faqResult.ok ? 'Has been succesfull uploaded' : 'We had an issue with the upload');
+    if (faqResult.ok) {
+        console.log('✅ Document has been successfully uploaded!');
+        console.log('Document ID:', faqResult.documentId);
+    } else {
+        console.error('❌ Error uploading document:');
+        console.error('Status:', faqResult.status);
+        console.error('Error:', faqResult.error);
+    }
 }
 
 main()
