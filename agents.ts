@@ -3,8 +3,8 @@ import 'dotenv/config'
 import {Langbase, MemoryRetrieveResponse} from 'langbase'
 
 const langbase = new Langbase({
-    apiKey: process.env.LANGBASE_API_KEY,
-})
+    apiKey: process.env.LANGBASE_API_KEY!,
+});
 
 export async function runAiSupportAgent({
     chunks,
@@ -20,11 +20,16 @@ export async function runAiSupportAgent({
         name: 'ai-support-agent',
         messages: [
             {
+                role: 'system',
+                content: systemPrompt,
+            },
+            {
                 role: 'user',
-                content: query
-            }
-        ]
-    })
+                content: query,
+            },
+        ],
+    });
+
     return completion;
 }
 
