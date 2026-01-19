@@ -8,8 +8,9 @@ async function main(){
     const completion  = await runAiSupportAgent({
         chunks,
         query,
-    })
-    console.log(completion)
+    });
+
+    console.log('Completion:', completion);
 }
 
 main()
