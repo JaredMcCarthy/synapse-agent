@@ -87,7 +87,7 @@ cp .env.example .env
 # Editar .env y añadir tu LANGBASE_API_KEY
 ```
 
-## ⚙ Configuración
+##  Configuración
 
 Crea un archivo `.env` en la raíz del proyecto:
 
@@ -175,10 +175,6 @@ Este proyecto sirvió como base de aprendizaje. Los próximos desarrollos inclui
 - Arquitecturas más robustas y escalables
 - Sistemas multi-agente
 - Implementaciones personalizadas más allá de frameworks
-
-##  Licencia
-
-ISC
 
 ##  Autor
 
