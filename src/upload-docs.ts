@@ -26,10 +26,10 @@ async function main(){
     });
 
     if (faqResult.ok) {
-        console.log('✅ Document has been successfully uploaded!');
+        console.log('Document has been successfully uploaded!');
         console.log('Document ID:', faqResult.documentId);
     } else {
-        console.error('❌ Error uploading document:');
+        console.error(' Error uploading document:');
         console.error('Status:', faqResult.status);
         console.error('Error:', faqResult.error);
     }
