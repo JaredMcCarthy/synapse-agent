@@ -1,12 +1,12 @@
 # Synapse Agent
 
-> **⚠️ Proyecto de Aprendizaje**: Este repositorio fue creado como un proyecto de práctica para explorar y aprender sobre AI Agents utilizando Langbase. Sirvió como base de conocimiento para futuros desarrollos más robustos.
+> ** Proyecto de Aprendizaje**: Este repositorio fue creado como un proyecto de práctica para explorar y aprender sobre AI Agents utilizando Langbase. Sirvió como base de conocimiento para futuros desarrollos más robustos.
 
-## 📋 Descripción
+##  Descripción
 
 Synapse Agent es un agente de IA conversacional desarrollado con **Langbase** que implementa un sistema de soporte inteligente con capacidades de recuperación de información (RAG - Retrieval Augmented Generation). El proyecto demuestra cómo construir un agente que puede responder preguntas utilizando una base de conocimientos personalizada.
 
-## 🎯 Objetivo del Proyecto
+##  Objetivo del Proyecto
 
 Este proyecto fue desarrollado con los siguientes propósitos:
 
@@ -15,7 +15,7 @@ Este proyecto fue desarrollado con los siguientes propósitos:
 - **Implementar** un sistema RAG básico pero funcional
 - **Sentar las bases** para proyectos más complejos en el futuro
 
-## 🏗️ Arquitectura
+##  Arquitectura
 
 El proyecto utiliza una arquitectura simple pero efectiva:
 
@@ -48,14 +48,14 @@ El proyecto utiliza una arquitectura simple pero efectiva:
 2. **AI Support Agent**: Genera respuestas contextualizadas basadas en la información recuperada
 3. **Knowledge Base**: Memoria de Langbase que almacena documentación y FAQs
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 - **Runtime**: Node.js con TypeScript
 - **Framework de AI**: Langbase SDK
 - **Arquitectura**: Serverless-ready
 - **Gestión de Variables**: dotenv
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 synapse-agent/
@@ -72,7 +72,7 @@ synapse-agent/
 └── tsconfig.json
 ```
 
-## 🚀 Instalación
+##  Instalación
 
 ```bash
 # Clonar el repositorio
@@ -87,7 +87,7 @@ cp .env.example .env
 # Editar .env y añadir tu LANGBASE_API_KEY
 ```
 
-## ⚙️ Configuración
+## ⚙ Configuración
 
 Crea un archivo `.env` en la raíz del proyecto:
 
@@ -95,7 +95,7 @@ Crea un archivo `.env` en la raíz del proyecto:
 LANGBASE_API_KEY=tu_api_key_aquí
 ```
 
-## 💻 Uso
+##  Uso
 
 ### Ejecutar el agente
 
@@ -133,7 +133,7 @@ async function main(){
 main()
 ```
 
-## 🔑 Características Principales
+##  Características Principales
 
 ### 1. Recuperación Inteligente (RAG)
 - Búsqueda semántica en base de conocimientos
@@ -150,7 +150,7 @@ main()
 - Instrucciones claras para mantener precisión
 - Manejo de casos donde no hay información disponible
 
-## 📚 Aprendizajes Clave
+##  Aprendizajes Clave
 
 Durante el desarrollo de este proyecto se exploraron:
 
@@ -161,14 +161,14 @@ Durante el desarrollo de este proyecto se exploraron:
 - ✅ TypeScript para proyectos de IA
 - ✅ Patrones de diseño para AI Agents
 
-## ⚠️ Limitaciones Conocidas
+##  Limitaciones Conocidas
 
 - **Proyecto de Aprendizaje**: No está optimizado para producción
 - **Alcance Limitado**: Desarrollado como POC (Proof of Concept)
 - **Sin Tests**: No incluye suite de testing
 - **Escalabilidad**: No ha sido probado en escenarios de alto volumen
 
-## 🔮 Próximos Pasos
+##  Próximos Pasos
 
 Este proyecto sirvió como base de aprendizaje. Los próximos desarrollos incluirán:
 
@@ -176,11 +176,11 @@ Este proyecto sirvió como base de aprendizaje. Los próximos desarrollos inclui
 - Sistemas multi-agente
 - Implementaciones personalizadas más allá de frameworks
 
-## 📄 Licencia
+##  Licencia
 
 ISC
 
-## 👤 Autor
+##  Autor
 
 **Jared McCarthy**
 
